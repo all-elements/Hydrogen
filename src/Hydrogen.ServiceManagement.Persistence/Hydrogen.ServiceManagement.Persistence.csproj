@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Hydrogen.ServiceManagement.Application\Hydrogen.ServiceManagement.Application.csproj" />
+    <ProjectReference Include="..\Hydrogen.ServiceManagement.Core\Hydrogen.ServiceManagement.Core.csproj" />
+  </ItemGroup>
+
+</Project>
